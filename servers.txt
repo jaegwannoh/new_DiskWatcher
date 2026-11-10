@@ -1,0 +1,12 @@
+# DiskWatcher 설정
+TIME_SERVER=WEB1
+WAIT_MIN=5
+
+# linux|이름|path|임계치|IP|포트|user|pw
+linux|WEB1|/var/log|90|10.0.0.11|22|root|1234
+linux|WEB1|/home|85|10.0.0.11|22|root|1234
+linux|DB1|/data|80|10.0.0.21|22|root|1234
+
+# win|이름|path|임계치
+win|FILE1|\\10.0.0.31\data|85
+win|MYPC|C:\|80
